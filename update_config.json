@@ -1,1 +1,11 @@
-{"Visibility":"HIDDEN","Version":1.0}
+{
+    "Visibility": "VISIBLE",
+    "Title": "Tes 1.2",
+    "Description": "Tes\n\nChangelog:\n",
+    "MainTextButton": "Update Sekarang",
+    "Cancelable": true,
+    "CancelButtonText": "Nanti Saja",
+    "DownloadLink": "https:\/\/github.com\/DaffaAgradhyasto\/skypulse-weather\/releases\/download\/v1.2-1779963944125\/SkyPulse_Weather_v1.2.apk",
+    "IconApp": "https:\/\/da.gd\/ImageApp",
+    "Version": 1
+}
