@@ -1,11 +1,29 @@
 {
-    "Visibility": "VISIBLE",
-    "Title": "Update Available | Pembaruan Tersedia",
-    "Description": "SkyPulse Weather menghadirkan pembaruan terbaru untuk membuka pengalaman cuaca yang lebih sinematik, dinamis, dan stabil.\n\nChangelog V1.2:\n• Dynamic Background Weather Engine resmi diaktifkan untuk pengalaman visual cuaca yang lebih nyata\n• Liquid fluid animation ditingkatkan agar lebih stabil, mulus, dan konsisten\n• Peningkatan 4K Cinematic Video Engine untuk efek hujan & badai petir yang lebih dramatis\n• Efek Liquid Wet Glassmorphism kini tampil lebih realistis dan elegan\n• Optimasi Hyper-Local AI Forecast dengan multi-model engine untuk prediksi yang lebih akurat\n• Admin Panel baru untuk mempermudah manajemen rilis dan pembaruan aplikasi\n• UI transition diperhalus agar navigasi terasa lebih smooth dan responsif\n• Layout utama diperbarui dengan tampilan yang lebih modern dan bersih\n• API cuaca dioptimalkan untuk pengambilan data yang lebih cepat dan presisi\n• Perbaikan bug minor serta peningkatan performa dan stabilitas aplikasi secara menyeluruh",
-    "MainTextButton": "Update Sekarang",
-    "Cancelable": true,
-    "CancelButtonText": "Nanti Saja",
-    "DownloadLink": "https:\/\/github.com\/DaffaAgradhyasto\/skypulse-weather\/releases\/download\/v1.2-1780020924478\/SkyPulse_Weather_v1.0.apk",
-    "IconApp": "https:\/\/da.gd\/ImageApp",
-    "Version": 1.2
+  "Visibility": "VISIBLE",
+  "Title": "Tes 1.2",
+  "Description": "Tes\n\nChangelog:\n- Sinkronisasi UI dan Fitur secara Live",
+  "MainTextButton": "Update Sekarang",
+  "Cancelable": true,
+  "CancelButtonText": "Nanti Saja",
+  "DownloadLink": "https://github.com/DaffaAgradhyasto/skypulse-weather/releases/download/v1.2-1780020924478/SkyPulse_Weather_v1.0.apk",
+  "IconApp": "https://da.gd/ImageApp",
+  "Version": 1.2,
+  "AppConfig": {
+    "themeSelected": "Cosmic",
+    "glassmorphism_enabled": true,
+    "particle_enabled": true,
+    "font_large": false,
+    "ai_theme_preset": "Default",
+    "home_title": "SkyPulse Weather",
+    "home_subtitle": "Prakiraan Cuaca Presisi 99%",
+    "forecast_label": "Prakiraan 7 Hari",
+    "dialog_update_title": "Pembaruan Tersedia",
+    "dialog_update_btn": "Update Sekarang",
+    "global_particle": true,
+    "tsunami_url": "",
+    "z_temp": 0.0,
+    "page_weather": true,
+    "page_gallery": true,
+    "page_settings": true
+  }
 }
