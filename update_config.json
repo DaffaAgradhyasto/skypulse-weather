@@ -10,8 +10,8 @@
     "Version": 1.2,
     "AppConfig": {
         "themeSelected": "Dark Blue",
-        "glassmorphism_enabled": false,
-        "particle_enabled": false,
+        "glassmorphism_enabled": true,
+        "particle_enabled": true,
         "font_large": false,
         "home_title": "SkyPulse Weather",
         "home_subtitle": "Prakiraan Cuaca Presisi",
