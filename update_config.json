@@ -12,7 +12,7 @@
         "themeSelected": "Dark Blue",
         "glassmorphism_enabled": true,
         "particle_enabled": true,
-        "font_large": true,
+        "font_large": false,
         "home_title": "SkyPulse Weather",
         "home_subtitle": "Prakiraan Cuaca Presisi",
         "forecast_label": "Prakiraan 7 Hari",
