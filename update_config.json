@@ -24,16 +24,12 @@
         "page_weather": true,
         "page_gallery": true,
         "page_settings": true,
+        "selected_api_service": "Apple WeatherKit",
         "ai_theme_preset": "Default",
-        "particle_Jakarta": "",
-        "video_Jakarta": "",
-        "particle_Murmansk": "",
         "video_Murmansk": "",
-        "particle_Tokyo": "",
-        "video_Tokyo": "",
-        "particle_London": "",
-        "video_London": "",
-        "particle_New York": "",
-        "video_New York": ""
+        "particle_Baddeck": "rain",
+        "video_Baddeck": "https:\/\/www.youtube.com\/embed\/NMU80w3Sn_I",
+        "particle_Murmansk": "",
+        "video_muted_Baddeck": true
     }
 }
