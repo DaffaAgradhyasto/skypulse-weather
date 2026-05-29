@@ -20,7 +20,7 @@
         "dialog_update_btn": "Update Sekarang",
         "tsunami_url": "",
         "z_temp": 0,
-        "global_particle": true,
+        "global_particle": false,
         "page_weather": true,
         "page_gallery": true,
         "page_settings": true,
