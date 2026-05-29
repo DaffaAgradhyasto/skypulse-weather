@@ -24,15 +24,18 @@
         "page_weather": true,
         "page_gallery": true,
         "page_settings": true,
-        "selected_api_service": "National Weather Service",
+        "selected_api_service": "AccuWeather Core",
         "ai_theme_preset": "Default",
-        "particle_Mangunjaya": "",
-        "video_Mangunjaya": "",
-        "video_Murmansk": "",
+        "particle_Mangunjaya": "rain",
+        "video_Mangunjaya": "https:\/\/www.youtube.com\/embed\/-ZpQTmLwWtM?si=3XA9LHkgCGUg_yds",
+        "video_muted_mangunjaya": true,
         "particle_Baddeck": "",
         "video_Baddeck": "",
+        "video_mangunjaya": "https:\/\/www.youtube.com\/embed\/-ZpQTmLwWtM?si=3XA9LHkgCGUg_yds",
         "video_muted_Mangunjaya": true,
         "particle_Murmansk": "",
-        "video_muted_Baddeck": true
+        "video_muted_Baddeck": true,
+        "video_Murmansk": "",
+        "particle_mangunjaya": "rain"
     }
 }
