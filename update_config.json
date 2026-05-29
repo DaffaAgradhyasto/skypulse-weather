@@ -24,7 +24,7 @@
         "page_weather": true,
         "page_gallery": true,
         "page_settings": true,
-        "selected_api_service": "OpenWeatherMap",
+        "selected_api_service": "National Weather Service",
         "ai_theme_preset": "Default",
         "particle_Mangunjaya": "",
         "video_Mangunjaya": "",
