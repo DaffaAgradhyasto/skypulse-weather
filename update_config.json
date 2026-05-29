@@ -26,9 +26,12 @@
         "page_settings": true,
         "selected_api_service": "AccuWeather Core",
         "ai_theme_preset": "Default",
+        "particle_Mangunjaya": "rain",
+        "video_Mangunjaya": " https:\/\/www.youtube.com\/embed\/NMU80w3Sn_I?si=P8D0jZrVtU0gwME2",
         "video_Murmansk": "",
         "particle_Baddeck": "rain",
         "video_Baddeck": "https:\/\/www.youtube.com\/embed\/NMU80w3Sn_I",
+        "video_muted_Mangunjaya": true,
         "particle_Murmansk": "",
         "video_muted_Baddeck": true
     }
