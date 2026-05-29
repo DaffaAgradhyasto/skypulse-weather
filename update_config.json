@@ -24,7 +24,7 @@
         "page_weather": true,
         "page_gallery": true,
         "page_settings": true,
-        "selected_api_service": "Apple WeatherKit",
+        "selected_api_service": "AccuWeather Core",
         "ai_theme_preset": "Default",
         "video_Murmansk": "",
         "particle_Baddeck": "rain",
