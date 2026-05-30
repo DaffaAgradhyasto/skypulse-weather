@@ -26,16 +26,16 @@
         "page_settings": true,
         "selected_api_service": "AccuWeather Core",
         "ai_theme_preset": "forest",
-        "particle_Mangunjaya": "rain",
-        "video_Mangunjaya": "https:\/\/www.youtube.com\/embed\/GrypM52edHg?si=uHOXbj32gfWfEIsU",
+        "particle_Mangunjaya": "",
+        "video_Mangunjaya": "",
         "video_muted_mangunjaya": true,
         "particle_Baddeck": "",
         "video_Baddeck": "",
-        "video_mangunjaya": "https:\/\/www.youtube.com\/embed\/GrypM52edHg?si=uHOXbj32gfWfEIsU",
+        "video_mangunjaya": "",
         "video_muted_Mangunjaya": true,
         "particle_Murmansk": "",
         "video_muted_Baddeck": true,
         "video_Murmansk": "",
-        "particle_mangunjaya": "rain"
+        "particle_mangunjaya": ""
     }
 }
