@@ -25,6 +25,12 @@
         "page_gallery": true,
         "page_settings": true,
         "selected_api_service": "AccuWeather Core",
-        "ai_theme_preset": "Default"
+        "ai_theme_preset": "Default",
+        "video_ragunan": "https:\/\/assets.mixkit.co\/videos\/preview\/mixkit-rain-drops-on-window-sill-1863-large.mp4",
+        "particle_Ragunan": "rain",
+        "video_muted_ragunan": true,
+        "video_muted_Ragunan": true,
+        "particle_ragunan": "rain",
+        "video_Ragunan": "https:\/\/assets.mixkit.co\/videos\/preview\/mixkit-rain-drops-on-window-sill-1863-large.mp4"
     }
 }
