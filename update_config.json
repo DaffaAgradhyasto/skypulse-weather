@@ -27,10 +27,10 @@
         "selected_api_service": "Open-Meteo",
         "ai_theme_preset": "Default",
         "video_ragunan": "https:\/\/cdn.pixabay.com\/video\/2020\/12\/18\/60338-517174623_large.mp4",
-        "particle_Ragunan": "snow",
+        "particle_Ragunan": "",
         "video_muted_ragunan": false,
         "video_muted_Ragunan": false,
-        "particle_ragunan": "snow",
+        "particle_ragunan": "",
         "video_Ragunan": "https:\/\/cdn.pixabay.com\/video\/2020\/12\/18\/60338-517174623_large.mp4"
     }
 }
