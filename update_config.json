@@ -24,7 +24,7 @@
         "page_weather": true,
         "page_gallery": true,
         "page_settings": true,
-        "selected_api_service": "Open-Meteo",
+        "selected_api_service": "AccuWeather Core",
         "ai_theme_preset": "Default",
         "video_ragunan": "https:\/\/assets.mixkit.co\/videos\/preview\/mixkit-rain-falling-on-the-background-of-a-dark-sky-40748-large.mp4",
         "particle_Ragunan": "rain",
