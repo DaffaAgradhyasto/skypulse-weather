@@ -42,12 +42,18 @@
         "video_muted_Mangunjaya": true,
         "particle_Murmansk": "",
         "video_muted_Baddeck": true,
+        "particle_Kutub Selatan": "snow",
+        "video_Kutub Selatan": "https:\/\/cdn.pixabay.com\/video\/2025\/06\/13\/285663_large.mp4",
         "video_ragunan": "",
+        "video_kutubselatan": "https:\/\/cdn.pixabay.com\/video\/2025\/06\/13\/285663_large.mp4",
         "particle_New York": "",
         "video_Murmansk": "",
         "video_newyork": "",
         "particle_mangunjaya": "clear",
         "video_muted_newyork": true,
-        "particle_ragunan": ""
+        "particle_kutubselatan": "snow",
+        "video_muted_kutubselatan": true,
+        "particle_ragunan": "",
+        "video_muted_Kutub Selatan": true
     }
 }
