@@ -26,11 +26,11 @@
         "page_settings": true,
         "selected_api_service": "AccuWeather Core",
         "ai_theme_preset": "Default",
-        "video_ragunan": "https:\/\/assets.mixkit.co\/videos\/preview\/mixkit-rain-falling-on-the-background-of-a-dark-sky-40748-large.mp4",
+        "video_ragunan": "https:\/\/player.vimeo.com\/external\/371433846.sd.mp4?s=236da2f3c022718e2444738ebdb5e4eec03f90f2&profile_id=139&oauth2_token_id=57447761",
         "particle_Ragunan": "rain",
         "video_muted_ragunan": false,
         "video_muted_Ragunan": false,
         "particle_ragunan": "rain",
-        "video_Ragunan": "https:\/\/assets.mixkit.co\/videos\/preview\/mixkit-rain-falling-on-the-background-of-a-dark-sky-40748-large.mp4"
+        "video_Ragunan": "https:\/\/player.vimeo.com\/external\/371433846.sd.mp4?s=236da2f3c022718e2444738ebdb5e4eec03f90f2&profile_id=139&oauth2_token_id=57447761"
     }
 }
