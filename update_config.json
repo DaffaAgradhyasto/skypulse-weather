@@ -24,13 +24,13 @@
         "page_weather": true,
         "page_gallery": true,
         "page_settings": true,
-        "selected_api_service": "AccuWeather Core",
+        "selected_api_service": "Open-Meteo",
         "ai_theme_preset": "Default",
-        "video_ragunan": "",
-        "particle_Ragunan": "",
+        "video_ragunan": "https:\/\/cdn.pixabay.com\/video\/2021\/04\/12\/71148-538600021_large.mp4",
+        "particle_Ragunan": "thunder",
         "video_muted_ragunan": true,
         "video_muted_Ragunan": true,
-        "particle_ragunan": "",
-        "video_Ragunan": ""
+        "particle_ragunan": "thunder",
+        "video_Ragunan": "https:\/\/cdn.pixabay.com\/video\/2021\/04\/12\/71148-538600021_large.mp4"
     }
 }
