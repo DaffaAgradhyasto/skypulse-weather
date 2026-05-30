@@ -26,11 +26,11 @@
         "page_settings": true,
         "selected_api_service": "Open-Meteo",
         "ai_theme_preset": "Default",
-        "video_ragunan": "https:\/\/cdn.pixabay.com\/video\/2021\/04\/12\/71148-538600021_large.mp4",
-        "particle_Ragunan": "thunder",
+        "video_ragunan": "https:\/\/cdn.pixabay.com\/video\/2020\/12\/18\/60338-517174623_large.mp4",
+        "particle_Ragunan": "snow",
         "video_muted_ragunan": true,
         "video_muted_Ragunan": true,
-        "particle_ragunan": "thunder",
-        "video_Ragunan": "https:\/\/cdn.pixabay.com\/video\/2021\/04\/12\/71148-538600021_large.mp4"
+        "particle_ragunan": "snow",
+        "video_Ragunan": "https:\/\/cdn.pixabay.com\/video\/2020\/12\/18\/60338-517174623_large.mp4"
     }
 }
