@@ -24,7 +24,7 @@
         "page_weather": true,
         "page_gallery": true,
         "page_settings": true,
-        "selected_api_service": "AccuWeather Core",
+        "selected_api_service": "WeatherAPI",
         "ai_theme_preset": "forest",
         "video_muted_ragunan": true,
         "video_muted_surabaya": true,
