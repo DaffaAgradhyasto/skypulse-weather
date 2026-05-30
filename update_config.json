@@ -24,7 +24,7 @@
         "page_weather": true,
         "page_gallery": true,
         "page_settings": true,
-        "selected_api_service": "Weather Underground",
+        "selected_api_service": "AccuWeather Core",
         "ai_theme_preset": "forest",
         "video_muted_ragunan": true,
         "video_muted_sun": true,
