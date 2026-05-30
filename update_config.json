@@ -44,7 +44,7 @@
         "particle_ragunan": "",
         "particle_baddeck": "rain",
         "video_muted_Kutub Selatan": true,
-        "particle_Mangunjaya": "clear",
+        "particle_Mangunjaya": "",
         "video_Mangunjaya": "https:\/\/cdn.pixabay.com\/video\/2025\/08\/28\/300488_large.mp4",
         "particle_newyork": "",
         "video_moon": "",
@@ -64,7 +64,7 @@
         "video_sun": "",
         "video_Murmansk": "",
         "video_newyork": "",
-        "particle_mangunjaya": "clear",
+        "particle_mangunjaya": "",
         "video_muted_newyork": true,
         "video_muted_kutubselatan": true,
         "video_muted_baddeck": true
