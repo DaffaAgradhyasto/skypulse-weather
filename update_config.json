@@ -26,11 +26,11 @@
         "page_settings": true,
         "selected_api_service": "Open-Meteo",
         "ai_theme_preset": "Default",
-        "video_ragunan": "https:\/\/cdn.pixabay.com\/video\/2020\/12\/18\/60338-517174623_large.mp4",
-        "particle_Ragunan": "",
+        "video_ragunan": "https:\/\/assets.mixkit.co\/videos\/preview\/mixkit-rain-falling-on-the-background-of-a-dark-sky-40748-large.mp4",
+        "particle_Ragunan": "rain",
         "video_muted_ragunan": false,
         "video_muted_Ragunan": false,
-        "particle_ragunan": "",
-        "video_Ragunan": "https:\/\/cdn.pixabay.com\/video\/2020\/12\/18\/60338-517174623_large.mp4"
+        "particle_ragunan": "rain",
+        "video_Ragunan": "https:\/\/assets.mixkit.co\/videos\/preview\/mixkit-rain-falling-on-the-background-of-a-dark-sky-40748-large.mp4"
     }
 }
