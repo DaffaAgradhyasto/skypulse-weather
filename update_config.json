@@ -28,14 +28,20 @@
         "ai_theme_preset": "forest",
         "particle_Mangunjaya": "",
         "video_Mangunjaya": "",
+        "particle_newyork": "",
+        "video_New York": "",
         "video_muted_mangunjaya": true,
+        "video_muted_New York": true,
         "particle_Baddeck": "",
         "video_Baddeck": "",
         "video_mangunjaya": "",
         "video_muted_Mangunjaya": true,
         "particle_Murmansk": "",
         "video_muted_Baddeck": true,
+        "particle_New York": "",
         "video_Murmansk": "",
-        "particle_mangunjaya": ""
+        "video_newyork": "",
+        "particle_mangunjaya": "",
+        "video_muted_newyork": true
     }
 }
