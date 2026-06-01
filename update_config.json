@@ -1,13 +1,13 @@
 {
     "Visibility": "VISIBLE",
-    "Title": "Auto Release v1.8",
+    "Title": "Auto Release v1.9",
     "Description": "Auto Update dari Admin Panel\n\nChangelog:\n- Perubahan UI\/Konten",
     "MainTextButton": "Update Sekarang",
     "Cancelable": true,
     "CancelButtonText": "Nanti Saja",
-    "DownloadLink": "https:\/\/github.com\/DaffaAgradhyasto\/skypulse-weather\/releases\/download\/v1.8\/auto-build.apk",
+    "DownloadLink": "https:\/\/github.com\/DaffaAgradhyasto\/skypulse-weather\/releases\/download\/v1.9\/auto-build.apk",
     "IconApp": "https:\/\/da.gd\/ImageApp",
-    "Version": 1.8,
+    "Version": 1.9000000000000001,
     "AppConfig": {
         "themeSelected": "Dark Blue",
         "glassmorphism_enabled": true,
