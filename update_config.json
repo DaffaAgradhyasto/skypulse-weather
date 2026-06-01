@@ -19,7 +19,7 @@
         "dialog_update_title": "Pembaruan Tersedia",
         "dialog_update_btn": "Update Sekarang",
         "tsunami_url": "",
-        "z_temp": 0,
+        "z_temp": 20,
         "global_particle": true,
         "page_weather": true,
         "page_gallery": true,
