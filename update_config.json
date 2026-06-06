@@ -25,7 +25,9 @@
         "page_weather": true,
         "page_gallery": true,
         "page_settings": true,
-        "selected_api_service": "Mock Weather API",
+        "selected_api_service": "Apple WeatherKit",
         "ai_theme_preset": "Default"
-    }
+    },
+    "NewPassword": "123",
+    "admin_password_hash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
 }
