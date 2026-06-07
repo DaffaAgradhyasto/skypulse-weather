@@ -26,7 +26,11 @@
         "page_gallery": true,
         "page_settings": true,
         "selected_api_service": "AccuWeather Core",
-        "ai_theme_preset": "Default"
+        "ai_theme_preset": "Default",
+        "video_sun": "",
+        "video_muted_sun": true,
+        "video_muted_moon": true,
+        "video_moon": ""
     },
     "NewPassword": "123",
     "admin_password_hash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
