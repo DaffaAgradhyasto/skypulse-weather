@@ -20,17 +20,15 @@
         "dialog_update_title": "Pembaruan Tersedia",
         "dialog_update_btn": "Update Sekarang",
         "tsunami_url": "",
-        "z_temp": 10,
+        "z_temp": 0,
         "global_particle": true,
         "page_weather": true,
         "page_gallery": true,
         "page_settings": true,
-        "selected_api_service": "AccuWeather Core",
+        "selected_api_service": "Open-Meteo",
         "ai_theme_preset": "Default",
-        "feature_slides_json": "",
-        "video_muted_sun": true,
-        "video_muted_moon": true,
-        "video_moon": "",
-        "video_sun": ""
-    }
+        "feature_slides_json": "[]"
+    },
+    "NewPassword": "1",
+    "admin_password_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
 }
