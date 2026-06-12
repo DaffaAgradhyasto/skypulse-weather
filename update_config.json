@@ -7,8 +7,8 @@
     "CancelButtonText": "Nanti Saja",
     "DownloadLink": "https:\/\/github.com\/DaffaAgradhyasto\/skypulse-weather\/releases\/download\/v2.5-1780743125546\/SkyMetriSense_Weather_v2.5_code5_SkyMetriSense_Weather.apk",
     "IconApp": "https:\/\/filebin.net\/skymetry609233\/Screenshot_2026-06-12-19-11-56-849_com.mi.android.globallauncher-edit.jpg",
-    "Version": 2.6,
-    "VersionCode": 6,
+    "Version": 2.7,
+    "VersionCode": 7,
     "AppConfig": {
         "themeSelected": "Dark Blue",
         "glassmorphism_enabled": true,
@@ -27,7 +27,7 @@
         "page_settings": true,
         "selected_api_service": "Open-Meteo",
         "ai_theme_preset": "Default",
-        "feature_slides_json": "[{\"title\":\"tes\",\"desc\":\"tes \",\"photo\":\"https:\\\/\\\/filebin.net\\\/skymetry671607\\\/Screenshot_2026-06-12-20-07-01-846_com.skymetric.sense.weather.jpg\",\"video\":\"\"},{\"title\":\"tes\",\"desc\":\"gh\",\"photo\":\"https:\\\/\\\/files.catbox.moe\\\/acuvfb.jpg\",\"video\":\"\"}]",
+        "feature_slides_json": "[{\"title\":\"tes\",\"desc\":\"gh\",\"photo\":\"https:\\\/\\\/files.catbox.moe\\\/acuvfb.jpg\",\"video\":\"\"}]",
         "slide_animation_preset": 13
     }
 }
