@@ -6,7 +6,7 @@
     "Cancelable": true,
     "CancelButtonText": "Nanti Saja",
     "DownloadLink": "https:\/\/github.com\/DaffaAgradhyasto\/skypulse-weather\/releases\/download\/v2.5-1780743125546\/SkyMetriSense_Weather_v2.5_code5_SkyMetriSense_Weather.apk",
-    "IconApp": "https:\/\/pixeldrain.com\/api\/file\/eCXLVEHg",
+    "IconApp": "https:\/\/filebin.net\/skymetry609233\/Screenshot_2026-06-12-19-11-56-849_com.mi.android.globallauncher-edit.jpg",
     "Version": 2.5,
     "VersionCode": 6,
     "AppConfig": {
@@ -27,7 +27,7 @@
         "page_settings": true,
         "selected_api_service": "AccuWeather Core",
         "ai_theme_preset": "Default",
-        "feature_slides_json": "[{\"title\":\"tes 2.0\",\"desc\":\"tes 2.0\",\"photo\":\"https:\\\/\\\/filebin.net\\\/skymetry444838\\\/BeautyPlus_20260612191320090_save.jpg\",\"video\":\"\"}]",
+        "feature_slides_json": "[{\"title\":\"tes 2.0\",\"desc\":\"tes 2.0\",\"photo\":\"https:\\\/\\\/filebin.net\\\/skymetry444838\\\/BeautyPlus_20260612191320090_save.jpg\",\"video\":\"\"},{\"title\":\"ted 5\",\"desc\":\"testm 5\",\"photo\":\"https:\\\/\\\/filebin.net\\\/skymetry617567\\\/IMG_20260612_115809_619.jpg\",\"video\":\"\"}]",
         "video_muted_sun": true,
         "video_muted_moon": true,
         "video_moon": "",
