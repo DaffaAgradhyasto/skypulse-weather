@@ -7,8 +7,8 @@
     "CancelButtonText": "Nanti Saja",
     "DownloadLink": "https:\/\/github.com\/DaffaAgradhyasto\/skypulse-weather\/releases\/download\/v2.5-1780743125546\/SkyMetriSense_Weather_v2.5_code5_SkyMetriSense_Weather.apk",
     "IconApp": "https:\/\/filebin.net\/skymetry609233\/Screenshot_2026-06-12-19-11-56-849_com.mi.android.globallauncher-edit.jpg",
-    "Version": 2.5,
-    "VersionCode": 5,
+    "Version": 2.6,
+    "VersionCode": 6,
     "AppConfig": {
         "themeSelected": "Dark Blue",
         "glassmorphism_enabled": true,
