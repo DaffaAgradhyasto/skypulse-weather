@@ -27,7 +27,7 @@
         "page_settings": true,
         "selected_api_service": "Open-Meteo",
         "ai_theme_preset": "Default",
-        "feature_slides_json": "[{\"title\":\"tes 1\",\"desc\":\"tes 1\",\"photo\":\"https:\\\/\\\/filebin.net\\\/skymetry209065\\\/Screenshot_2026-06-12-20-07-01-846_com.skymetric.sense.weather.jpg\",\"video\":\"\"}]",
+        "feature_slides_json": "[]",
         "slide_animation_preset": 13
     }
 }
