@@ -27,7 +27,7 @@
         "page_settings": true,
         "selected_api_service": "Open-Meteo",
         "ai_theme_preset": "Default",
-        "feature_slides_json": "[{\"title\":\"tes\",\"desc\":\"tes \",\"photo\":\"https:\\\/\\\/files.catbox.moe\\\/7byw57.jpg\",\"video\":\"\"}]",
+        "feature_slides_json": "",
         "slide_animation_preset": 13
     }
 }
