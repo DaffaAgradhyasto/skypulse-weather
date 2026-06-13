@@ -31,5 +31,7 @@
         "slide_animation_preset": 4
     },
     "NewPassword": "1",
-    "admin_password_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+    "admin_password_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+    "VersionNow": 2.6,
+    "VersionCodeNow": 5
 }
