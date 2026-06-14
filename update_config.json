@@ -6,7 +6,7 @@
     "Cancelable": true,
     "CancelButtonText": "Nanti Saja",
     "DownloadLink": "https:\/\/github.com\/DaffaAgradhyasto\/skypulse-weather\/releases\/download\/v2.9-1781424632035\/SkyMetriSense_Weather_v2.9_code9_SkyMetriSense_Weather.1.apk",
-    "IconApp": "https:\/\/ik.imagekit.io\/79nfgeslv\/IMG_20260614_144811_384_541aYBCcb.jpg",
+    "IconApp": "https:\/\/files.catbox.moe\/o417r8.jpg",
     "Version": 2.9,
     "VersionCode": 9,
     "DialogAnimationTransition": "OEB",
@@ -28,7 +28,7 @@
         "page_settings": true,
         "selected_api_service": "AccuWeather Core",
         "ai_theme_preset": "Default",
-        "feature_slides_json": "[{\"title\":\"chh\",\"desc\":\"vbh\",\"photo\":\"tg:\\\/\\\/AgACAgUAAxkDAAMNai4am_NKgBx6o8Yw4OHZnC6hKGwAAuUOaxtX8nBVt9pRNU7ruOsBAAMCAAN4AAM8BA\",\"video\":\"\",\"photoProvider\":\"TELEGRAM\",\"videoProvider\":\"N\\\/A\"},{\"title\":\"fehdbs\",\"desc\":\"bdhdjdo\",\"photo\":\"tg:\\\/\\\/AgACAgUAAxkDAAMGaizSPSpsY7K1tUQYStXTuwGHr7YAAnoQaxvTgmBV4yH9bXbLakgBAAMCAAN3AAM8BA\",\"video\":\"\"},{\"title\":\"gyui\",\"desc\":\"dfy\",\"photo\":\"https:\\\/\\\/ik.imagekit.io\\\/79nfgeslv\\\/cover_7532066159974173995_cover_173995_JLCKra_ZS.jpg\",\"video\":\"\"},{\"title\":\"6gh\",\"desc\":\"hhh\",\"photo\":\"\",\"video\":\"https:\\\/\\\/ik.imagekit.io\\\/79nfgeslv\\\/Screenrecorder-2026-06-13-09-21-18-73_AUaijYAy9.mp4\"}]",
+        "feature_slides_json": "[]",
         "slide_animation_preset": 13
     }
 }
