@@ -9,7 +9,7 @@
     "IconApp": "https:\/\/pixeldrain.com\/api\/file\/NmC3FnPq",
     "Version": 2.6,
     "VersionCode": 6,
-    "DialogAnimationTransition": "ZBL",
+    "DialogAnimationTransition": "OEB",
     "AppConfig": {
         "themeSelected": "Dark Blue",
         "glassmorphism_enabled": true,
@@ -24,11 +24,15 @@
         "z_temp": 0,
         "global_particle": true,
         "page_weather": true,
-        "page_gallery": true,
+        "page_gallery": false,
         "page_settings": true,
         "selected_api_service": "AccuWeather Core",
         "ai_theme_preset": "Default",
         "feature_slides_json": "[{\"title\":\"gyui\",\"desc\":\"dfy\",\"photo\":\"https:\\\/\\\/ik.imagekit.io\\\/79nfgeslv\\\/cover_7532066159974173995_cover_173995_JLCKra_ZS.jpg\",\"video\":\"\"},{\"title\":\"fehdbs\",\"desc\":\"bdhdjdo\",\"photo\":\"tg:\\\/\\\/AgACAgUAAxkDAAMGaizSPSpsY7K1tUQYStXTuwGHr7YAAnoQaxvTgmBV4yH9bXbLakgBAAMCAAN3AAM8BA\",\"video\":\"\"},{\"title\":\"6gh\",\"desc\":\"hhh\",\"photo\":\"\",\"video\":\"https:\\\/\\\/ik.imagekit.io\\\/79nfgeslv\\\/Screenrecorder-2026-06-13-09-21-18-73_AUaijYAy9.mp4\"},{\"title\":\"rtygh\",\"desc\":\"vuii\",\"photo\":\"\",\"video\":\"https:\\\/\\\/cdn.discordapp.com\\\/attachments\\\/1515318796540182550\\\/1515523576818565301\\\/7638596469972647921_____720x1278_0.mp4?ex=6a2f50d1&is=6a2dff51&hm=78bb29f1ad2f21478cd26c98764b25021e207de043371209a20959be1870f859&\"}]",
-        "slide_animation_preset": 12
-    }
+        "slide_animation_preset": 13
+    },
+    "VersionNow": 2.5,
+    "VersionCodeNow": 5,
+    "NewPassword": "1",
+    "admin_password_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
 }
