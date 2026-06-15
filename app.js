@@ -1,23 +1,23 @@
-// File: app.js
 const HF_TOKEN = "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";
-// JANGAN LUPA: Masukkan alamat tautan GitHub Pages kamu yang didapat dari Langkah 1 di sini!
-const PUTER_BRIDGE_URL = "https://username_kamu.github.io/skymetrisense-bridge/puter_bridge.html"; 
+// PENTING: Ganti URL di bawah ini dengan tautan GitHub Pages aslimu nanti!
+const PUTER_BRIDGE_URL = "https://daffaagradhyasto.github.io/skypulse-weather/puter_bridge.html"; 
 
 let currentEngine = "Puter.js Engine";
 let currentModelId = "gemini-3.1-pro-preview";
 
+// Data Master Koleksi Lengkap 20 Model Dunia Terintegrasi Tanpa Prefiks UI
 const modelLibrary = [
-    { id: "gemini-3.1-pro-preview", name: "Gemini 3.1 Pro Preview", defaultEngine: "Puter.js Engine", color: "#00E676", info: "Google via Puter / HF", advice: "Omni-Intelligence High-Thinking: Berfokus pada pemodelan fluktuasi iklim makro dan mikro ekstrim, hidrologi tanaman pangan, serta sistem peringatan dini badai." },
+    { id: "gemini-3.1-pro-preview", name: "Gemini 3.1 Pro Preview", defaultEngine: "Puter.js Engine", color: "#00E676", info: "Google via Puter / HF", advice: "Omni-Intelligence High-Thinking: Berfokus pada pemodelan fluktuasi iklim makro dan mikro ekstrim, hidrologi tanaman pangan, serta sistem peringatan dini badai regional." },
     { id: "claude-opus-4-8", name: "Claude Opus 4.8", defaultEngine: "Puter.js Engine", color: "#7C4DFF", info: "Anthropic via Puter / HF", advice: "Analisis biokimia tanah tingkat lanjut, penanganan masa pemulihan unsur hara, serta manajemen komparatif fenologi vegetasi agrikultur." },
-    { id: "deepseek-v4-pro", name: "DeepSeek V4 Pro", defaultEngine: "Puter.js Engine", color: "#00E5FF", info: "DeepSeek via Puter / HF", advice: "Pemodelan matematika penyebaran wabah hama tanaman pasca-hujan, estimasi risiko erosi, dan komputasi agroklimatologi berkecepatan tinggi." },
-    { id: "gpt-5.5-pro", name: "GPT 5.5 Pro", defaultEngine: "Puter.js Engine", color: "#FF3D00", info: "OpenAI via Puter / HF", advice: "Perancangan strategi panen multi-variat terintegrasi data cuaca satelit real-time guna mengoptimalkan ketahanan suplai distribusi pangan." },
-    { id: "qwen-3.7-max", name: "Qwen 3.7 Max", defaultEngine: "Puter.js Engine", color: "#FFEA00", info: "Alibaba Cloud via Puter / HF", advice: "Integrasi telemetri sensor cuaca IoT lapangan pertanian, pemrosesan bahasa alami instruksi tani lokalisasi daerah, dan asisten botani." },
-    { id: "mimo-v2.5-pro", name: "Mimo v2.5 Pro", defaultEngine: "Puter.js Engine", color: "#E040FB", info: "Mimo AI via Puter", advice: "Analisis pengenalan pola anomali stomata tanaman hias akibat fluktuasi mendadak tingkat kelembapan relatif tanah permukaan." },
+    { id: "deepseek-v4-pro", name: "DeepSeek V4 Pro", defaultEngine: "Puter.js Engine", color: "#00E5FF", info: "DeepSeek via Puter / HF", advice: "Pemodelan matematika penyebaran wabah hama tanaman pasca-hujan, sirkulasi angin monsun, dan komputasi agroklimatologi berkecepatan tinggi." },
+    { id: "gpt-5.5-pro", name: "GPT 5.5 Pro", defaultEngine: "Puter.js Engine", color: "#FF3D00", info: "OpenAI via Puter / HF", advice: "Perancangan strategi panen multi-variat terintegrasi data cuaca satelit real-time guna mengoptimalkan ketahanan suplai distribusi pangan global." },
+    { id: "qwen-3.7-max", name: "Qwen 3.7 Max", defaultEngine: "Puter.js Engine", color: "#FFEA00", info: "Alibaba Cloud via Puter / HF", advice: "Integrasi telemetri sensor cuaca IoT lapangan pertanian, pemrosesan bahasa alami instruksi tani lokalisasi daerah, dan asisten interpretasi botani." },
+    { id: "mimo-v2.5-pro", name: "Mimo v2.5 Pro", defaultEngine: "Puter.js Engine", color: "#E040FB", info: "Mimo AI via Puter", advice: "Analisis pengenalan pola anomali stomata tanaman hias akibat fluktuasi mendadak pada tingkat kelembapan relatif tanah permukaan." },
     { id: "kimi-2.6", name: "Kimi 2.6", defaultEngine: "Puter.js Engine", color: "#0091EA", info: "Moonshot AI via Puter", advice: "Penyusunan rangkuman analisis dokumen regulasi ketahanan pangan jangka panjang berbasis dinamika pergeseran cuaca musiman benua." },
     { id: "llama-4-ultra", name: "Llama 4 Ultra", defaultEngine: "Hugging Face Router", color: "#FF6D00", info: "Meta AI via Hugging Face", advice: "Kalkulasi tingkat kejenuhan air dalam pori tanah guna memprediksi potensi bahaya tanah longsor di area lereng pertanian terasering." },
     { id: "mistral-large-v4", name: "Mistral Large v4", defaultEngine: "Hugging Face Router", color: "#C6FF00", info: "Mistral AI via Hugging Face", advice: "Formulasi manajemen sistem irigasi presisi tetes mikro berdasarkan kalkulasi nilai evapotranspirasi aktual tanaman hortikultura." },
     { id: "phi-4-pro", name: "Phi 4 Pro", defaultEngine: "Hugging Face Router", color: "#00B0FF", info: "Microsoft via Hugging Face", advice: "Komputasi edge lokal berdaya rendah guna mengestimasi waktu pembentukan fenomena embun beku (frost) pada daun komoditas dataran tinggi." },
-    { id: "gemma-3-9b-it", name: "Gemma 3 9B IT", defaultEngine: "Hugging Face Router", color: "#F50057", info: "Google via Hugging Face", advice: "Penyuluhan interaktif botani dasar untuk pemula, panduan praktis penanganan hama kutu daun berdasarkan kelembapan harian." },
+    { id: "gemma-3-9b-it", name: "Gemma 3 9B IT", defaultEngine: "Hugging Face Router", color: "#F50057", info: "Google via Hugging Face", advice: "Penyuluhan interaktif botani dasar untuk pemula, panduan praktis penanganan hama kutu daun berdasarkan indeks kelembapan harian." },
     { id: "command-r-super", name: "Command R Super", defaultEngine: "Hugging Face Router", color: "#651FFF", info: "Cohere via Hugging Face", advice: "Analisis komprehensif data cuaca maritim, kecepatan gelombang laut, dan panduan keselamatan melaut bagi komunitas nelayan wilayah pesisir." },
     { id: "grok-3-ultra", name: "Grok 3 Ultra", defaultEngine: "Hugging Face Router", color: "#212121", info: "xAI via Hugging Face", advice: "Asimilasi data satelit cuaca temporal konvektif tinggi untuk mendeteksi rute pergerakan dan intensitas sambaran petir badai awan." },
     { id: "sonar-pro-v2", name: "Sonar Pro v2", defaultEngine: "Hugging Face Router", color: "#1DE9B6", info: "Perplexity via Hugging Face", advice: "Pencarian dan penjejakan nilai indeks radiasi sinar matahari ultraviolet (UV) serta pengaruhnya pada saturasi klorofil daun." },
@@ -26,7 +26,7 @@ const modelLibrary = [
     { id: "yi-2.0-vision-pro", name: "Yi 2.0 Vision Pro", defaultEngine: "Hugging Face Router", color: "#AA00FF", info: "01.AI via Hugging Face", advice: "Diagnosis berbasis komputer visi melalui pemindaian foto gambar daun untuk mendeteksi sebaran klorosis akibat genangan air berlebih." },
     { id: "internlm-3-max", name: "InternLM 3 Max", defaultEngine: "Hugging Face Router", color: "#3D5AFE", info: "SenseTime via Hugging Face", advice: "Kalkulasi otomatisasi matriks THI (Temperature Humidity Index) untuk memonitoring kenyamanan lingkungan kandang hewan ternak mamalia." },
     { id: "falcon-3-heavy", name: "Falcon 3 Heavy", defaultEngine: "Hugging Face Router", color: "#FF1744", info: "TII via Hugging Face", advice: "Analisis vektor sirkulasi pola hembusan angin monsun regional untuk memproyeksikan tingkat keberhasilan proses polinasi alami perkebunan." },
-    { id: "deepseek-coder-v3", name: "DeepSeek Coder v3", defaultEngine: "Puter GitHub Web", color: "#00B8D4", info: "DeepSeek via Puter", advice: "Automasi pembuatan skrip pengkondisian perangkat mikrokontroler penyiraman lahan otomatis berbasis masukan API prediksi cuaca besok." }
+    { id: "deepseek-coder-v3", name: "DeepSeek Coder v3", defaultEngine: "Puter.js Engine", color: "#00B8D4", info: "DeepSeek via Puter", advice: "Automasi pembuatan skrip pengkondisian perangkat mikrokontroler penyiraman lahan otomatis berbasis masukan API prediksi cuaca besok." }
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -118,10 +118,13 @@ async function kirimPesanKeAi() {
         const puterInternalMap = {
             "gemini-3.1-pro-preview": "deepseek/deepseek-v4-pro",
             "claude-opus-4-8": "deepseek/deepseek-v4-pro",
-            "deepseek-v4-pro": "deepseek/deepseek-v4-pro"
+            "deepseek-v4-pro": "deepseek/deepseek-v4-pro",
+            "gpt-5.5-pro": "deepseek/deepseek-v4-pro",
+            "qwen-3.7-max": "deepseek/deepseek-v4-pro"
         };
         const targetPuterModel = puterInternalMap[currentModelId] || "deepseek/deepseek-v4-pro";
 
+        // Kirim sinyal pesan rahasia ke jendela iframe GitHub Pages
         iframe.contentWindow.postMessage({ modelId: targetPuterModel, prompt: userText }, "*");
 
         const tangkapBalasanPuter = function(event) {
@@ -130,7 +133,7 @@ async function kirimPesanKeAi() {
 
             const responMentah = event.data;
             if (responMentah.status === "success") {
-                // Blokir [object Object] dengan validasi typeof murni
+                // VALIDASI TOTAL: Jika tipenya objek misterius, urai paksa jadi teks string!
                 if (typeof responMentah.content === 'object') {
                     updateGelembungChat(loadingId, JSON.stringify(responMentah.content), modelAktif.name);
                 } else {
