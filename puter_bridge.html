@@ -2,64 +2,31 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>SkyMetriSense Puter Bridge</title>
-    <!-- Use Puter.js V2 CDN as requested -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyMetriSense Puter Bridge Engine</title>
+    <!-- Memuat SDK Resmi Puter.js v2 -->
     <script src="https://js.puter.com/v2/"></script>
 </head>
-<body style="background: #060A19; color: #FFFFFF; font-family: sans-serif; padding: 20px; text-align: center;">
-    <h3 style="font-weight: bold; font-size: 14px; margin-bottom: 5px;">SkyMetriSense Puter Bridge Active</h3>
-    <p style="font-size: 11px; color: #8892B0; margin: 0;">Micro-frontend service connected to Android WebView context</p>
-
+<body>
     <script>
-        // Mapping of clean model IDs to actual Puter AI model options
-        function getPuterModelId(modelId) {
-            switch(modelId) {
-                case "gemini-3.1-pro-preview": return "google/gemini-2.5-pro";
-                case "claude-opus-4-8": return "claude-3-opus";
-                case "deepseek-v4-pro": return "deepseek-v3";
-                case "gpt-5.5-pro": return "gpt-4o";
-                case "qwen-3.7-max": return "meta-llama-3-70b-instruct";
-                case "mimo-v2.5-pro": return "gpt-4o-mini";
-                case "kimi-2.6": return "gpt-4o-mini";
-                case "deepseek-coder-v3": return "deepseek-v3";
-                default: return "gpt-4o-mini";
-            }
-        }
+        console.log("Puter Bridge Engine Berhasil Diaktifkan di Cloud.");
 
-        // Bridge function to communicate with Android native context
-        async function runPuterChat(modelId, systemPrompt, userMessage) {
-            try {
-                const puterModel = getPuterModelId(modelId);
-                
-                // Invoke Puter's client-side conversational interface
-                const resp = await puter.ai.chat(userMessage, {
-                    model: puterModel,
-                    system: systemPrompt
-                });
-                
-                const content = resp?.message?.content || resp || "No response";
-                
-                // Return via Javascript interface AndroidBridge if bound
-                if (window.AndroidBridge && typeof window.AndroidBridge.onChatResponse === 'function') {
-                    window.AndroidBridge.onChatResponse(content);
-                }
-                
-                // Fallback to postMessage
-                window.parent.postMessage({ status: "success", data: content }, "*");
-            } catch (error) {
-                const errMsg = error.toString();
-                if (window.AndroidBridge && typeof window.AndroidBridge.onChatError === 'function') {
-                    window.AndroidBridge.onChatError(errMsg);
-                }
-                window.parent.postMessage({ status: "error", data: errMsg }, "*");
-            }
-        }
-
-        // Parent window listener supporting cross-origin message frames
+        // Mendengarkan pesan kiriman dari aplikasi utama Android
         window.addEventListener("message", async function(event) {
-            const { modelId, prompt, systemPrompt } = event.data;
+            const { modelId, prompt } = event.data;
             if (!modelId || !prompt) return;
-            await runPuterChat(modelId, systemPrompt || "", prompt);
+
+            try {
+                // Eksekusi model AI di lingkungan browser murni
+                const response = await puter.ai.chat(prompt, { model: modelId });
+                
+                // Kirim balik teks jawaban string murni ke aplikasi utama
+                window.parent.postMessage({ status: "success", content: response.message.content }, "*");
+            } catch (error) {
+                // Tangkap pesan error berupa string biar gak jadi [object Object]
+                const pesanError = error.message || JSON.stringify(error);
+                window.parent.postMessage({ status: "error", content: pesanError }, "*");
+            }
         });
     </script>
 </body>
