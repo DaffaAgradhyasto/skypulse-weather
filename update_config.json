@@ -27,7 +27,7 @@
         "page_gallery": true,
         "page_settings": true,
         "selected_api_service": "AccuWeather Core",
-        "ai_theme_preset": "Default",
+        "ai_theme_preset": "ocean",
         "feature_slides_json": "[]",
         "slide_animation_preset": 13
     },
