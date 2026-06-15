@@ -4,28 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkyMetriSense Puter Bridge Engine</title>
-    <!-- Memuat SDK Resmi Puter.js v2 -->
     <script src="https://js.puter.com/v2/"></script>
 </head>
 <body>
     <script>
-        console.log("Puter Bridge Engine Berhasil Diaktifkan di Cloud.");
+        console.log("Puter GitHub Bridge Engine Active.");
 
-        // Mendengarkan pesan kiriman dari aplikasi utama Android
         window.addEventListener("message", async function(event) {
             const { modelId, prompt } = event.data;
             if (!modelId || !prompt) return;
 
             try {
-                // Eksekusi model AI di lingkungan browser murni
+                // Berjalan di lingkungan HTTPS murni milik GitHub Pages
                 const response = await puter.ai.chat(prompt, { model: modelId });
-                
-                // Kirim balik teks jawaban string murni ke aplikasi utama
                 window.parent.postMessage({ status: "success", content: response.message.content }, "*");
             } catch (error) {
-                // Tangkap pesan error berupa string biar gak jadi [object Object]
-                const pesanError = error.message || JSON.stringify(error);
-                window.parent.postMessage({ status: "error", content: pesanError }, "*");
+                const msgError = error.message || JSON.stringify(error);
+                window.parent.postMessage({ status: "error", content: msgError }, "*");
             }
         });
     </script>
