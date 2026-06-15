@@ -8,17 +8,21 @@
 </head>
 <body>
     <script>
-        console.log("Puter GitHub Bridge Engine Active.");
+        console.log("Puter Bridge Engine Aktif di Lingkungan GitHub Pages HTTPS.");
 
+        // Mendengarkan instruksi surat rahasia dari aplikasi utama Android WebView
         window.addEventListener("message", async function(event) {
             const { modelId, prompt } = event.data;
             if (!modelId || !prompt) return;
 
             try {
-                // Berjalan di lingkungan HTTPS murni milik GitHub Pages
+                // Eksekusi SDK Puter dalam sandbox browser murni (bebas blokir Android)
                 const response = await puter.ai.chat(prompt, { model: modelId });
+                
+                // Kembalikan teks string murni hasil chat ke aplikasi utama
                 window.parent.postMessage({ status: "success", content: response.message.content }, "*");
             } catch (error) {
+                // Tangkap string error secara mendalam agar tidak memicu [object Object]
                 const msgError = error.message || JSON.stringify(error);
                 window.parent.postMessage({ status: "error", content: msgError }, "*");
             }
