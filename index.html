@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Meteorology Portal - SkyMetriSense</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <iframe id="puter-iframe-bridge" src="https://username_kamu.github.io/skymetrisense-bridge/puter_bridge.html" style="display:none;"></iframe>
+
+    <div class="app-container">
+        <header class="main-header">
+            <div class="logo-area">
+                <span class="icon-sparkle">✨</span>
+                <h1>AI METEOROLOGY PORTAL</h1>
+            </div>
+            <p class="subtitle">Analisis Lintas Model Presisi Bio-Meteorologi</p>
+        </header>
+
+        <div class="engine-toggle-container">
+            <button id="btn-puter" class="toggle-btn active" onclick="setEngine('Puter.js Engine')">Puter.js Engine</button>
+            <button id="btn-hf" class="toggle-btn" onclick="setEngine('Hugging Face Router')">Hugging Face Router</button>
+        </div>
+
+        <div class="model-badge-scroll" id="model-list-container"></div>
+
+        <div class="active-model-card">
+            <div class="card-header">
+                <h2 id="display-model-name">Gemini 3.1 Pro Preview</h2>
+                <span class="status-badge" id="display-badge-color">AKTIF</span>
+            </div>
+            <p class="provider-info" id="display-provider-info">Google via Puter / HF</p>
+        </div>
+
+        <div class="fusion-card">
+            <h3>METRISENSE COLLAB FUSION ENGINE</h3>
+            <p>Sintesis korelasi data multi-model real-time untuk analisis wilayah lokal.</p>
+            <button class="btn-sync">🔄 Sinkronkan & Renders Multi-Agent AI</button>
+        </div>
+
+        <div class="synergy-matrix-card">
+            <div class="matrix-header">
+                <h3 id="matrix-title">GEMINI 3.1 PRO PREVIEW</h3>
+                <span class="route-tag" id="matrix-route-tag">Google via Puter / HF</span>
+            </div>
+            <p class="matrix-desc" id="matrix-description">Memuat data...</p>
+        </div>
+
+        <section class="interactive-console">
+            <div class="console-header">🎮 KONSOL AI INTERACTIVE</div>
+            <div class="chat-box" id="chat-stream-box">
+                <div class="chat-bubble ai">
+                    <p>Halo! Saya SkyMetriSense Weather Assistant. Saya didukung oleh multi-model AI (Puter.js / Hugging Face). Apa yang ingin Anda ketahui?</p>
+                    <span class="bubble-meta" id="chat-meta-name">Gemini 3.1 Pro Preview</span>
+                </div>
+            </div>
+
+            <div class="chat-input-area">
+                <input type="text" id="user-chat-input" placeholder="Ketik pesan..." onkeypress="handleEnterKey(event)">
+                <button id="btn-send-chat" onclick="kirimPesanKeAi()">▶</button>
+            </div>
+        </section>
+
+        <nav class="bottom-nav-bar">
+            <div class="nav-item">☁️<span>Prakiraan</span></div>
+            <div class="nav-item">📋<span>Kelola</span></div>
+            <div class="nav-item active">✨<span>AI Cuaca</span></div>
+            <div class="nav-item">☁️<span>SkyDrive</span></div>
+            <div class="nav-item">⚙️<span>Setelan</span></div>
+        </nav>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
