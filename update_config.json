@@ -5,7 +5,7 @@
     "MainTextButton": "Update Sekarang",
     "Cancelable": true,
     "CancelButtonText": "Nanti Saja",
-    "DownloadLink": "https:\/\/github.com\/DaffaAgradhyasto\/skypulse-weather\/releases\/download\/v2.9-1781677863465\/SkyMetriSense_Weather_v2.9_code9_SkyMetriSense_Weather.1.apk",
+    "DownloadLink": "https:\/\/github.com\/DaffaAgradhyasto\/skypulse-weather\/releases\/download\/v2.9-1781679084494\/SkyMetriSense_Weather_v0_code9_SkyMetriSense_Weather.apk",
     "IconApp": "https:\/\/cdn.discordapp.com\/attachments\/1515318796540182550\/1515637875604197397\/IMG_20260614_144811_384.jpg?ex=6a2fbb44&is=6a2e69c4&hm=f62e8e047cdbb327eed55a3750f9bb0ba80f3d82064601a01d9ee9e362ab2f3e&",
     "Version": 2.9,
     "VersionCode": 9,
@@ -30,9 +30,5 @@
         "ai_theme_preset": "Default",
         "feature_slides_json": "[]",
         "slide_animation_preset": 13
-    },
-    "VersionNow": 0,
-    "VersionCodeNow": 0,
-    "NewPassword": "1",
-    "admin_password_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+    }
 }
